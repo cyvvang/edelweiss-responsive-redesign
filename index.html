@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edelweiss Bakery</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- navigation -->
+  <div class="nav">
+    <div class="nav-items">
+      <h4>Edelweiss Bakery</h4>
+      <div class="nav-main-items">
+        <ul>
+          <li><button><p>Wedding</p></button></li>
+          <li><button><p>Special Occasion</p></button></li>
+          <li>
+          <div class="dropdown">
+            <button>
+              <p>Bakery</p>
+            </button>
+  
+            <!-- dropdown-menu -->
+            <div class="dropdown-content">
+              <div class="split-container">
+                <div class="content-container left-side" id="dropdown" style="justify-content: flex-start;">
+                  <p><strong>SHOP ALL</strong></p>
+                  <div>
+                    <p class="semi-bold">Signature Cakes</p>
+                    <p class="semi-bold">Cake Slices</p>
+                    <p class="semi-bold">Pastries</p>
+                    <p class="semi-bold">Brownies</p>
+                    <p class="semi-bold">Cookies</p>
+                  </div>
+                </div>
+  
+                <div class="split-container">
+                  <div class="content-container left-side" id="dropdown">
+                    <p class="semi-bold">SIGNATURE CAKE SLICES</p>
+                    <img src="images/cake-slices.png" alt="eight rectangular cake slices sitting on a platter with a butter knife">
+                    <p class="semi-bold">Shop Now</p>
+                  </div>
+        
+                  <div class="content-container right-side">
+                    <p class="semi-bold">TEA COOKIES</p>
+                    <div class="square-container">
+                      <img src="images/cookies.png" alt="an assortment of cookies dusted with powdered sugar">
+                    </div>
+                    <p class="semi-bold">Shop Now</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+          </li>
+          <li><button><p>Menu</p></button></li>
+          <li><button><p>About</p></button></li>
+        </ul>
+      </div>
+
+      <div class="nav-menu">
+        <button class="nav-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-bag"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <p>Cart</p>
+        </button>
+            
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- banner -->
+  <div class="banner">
+    <p class="regular">Thanks for visiting with us today ☺</p>
+  </div>
+  
+  <!-- cover -->
+  <div class="content-container" id="hero">
+    <img src="images/cover.png" alt="twelve tall cakes sitting on cake stands or cake boards on top of a white table">
+    <div class="center-text">
+      <h1>Made with <span>Butter</span> and <span>Love</span> ♥</h1>
+    </div>
+  </div>
+
+  <!-- intro -->
+  <div class="split-container">
+    <div class="content-container left-side" style="justify-content: flex-start;">
+      <!-- fix weird alignment -->
+      <p class="large-text">We strive to bring you that <em>original</em> <strong>European bakery and cake shop</strong> experience that has been <em>known and loved</em> by <strong>many generations</strong>.</p>
+      <p class="large-text"><em>Owned and operated</em> by the same family <strong>since 1967</strong></p>
+    </div>
+
+    <div class="right-side">
+      <div class="content-container">
+        <h3><strong>NEW STORE HOURS</strong><br><em>Effective Tuesday, July 31</em></h3>
+      </div>
+
+      <div class="content-container small-spacing">
+        <div class="split-container table">
+          <p class="large-text"><strong>Monday</strong></p>
+          <p class="large-text">Closed</p>
+        </div>
+
+        <div class="split-container table">
+          <p class="large-text"><strong>Tuesday - Saturday</strong></p>
+          <p class="large-text">7:30am - 5:30pm</p>
+        </div>
+
+        <div class="split-container table">
+          <p class="large-text"><strong>Sunday</strong></p>
+          <p class="large-text">9:00am - 1:00pm</p>
+        </div>  
+      </div>
+    </div>
+  </div>
+  
+  <!-- story -->
+  <div class="split-container">
+    <div class="content-container left-side">
+      <p class="large-text">
+        Let our bakers and decorators create that <em>special</em> <strong>birthday celebration cake</strong> especially for your <strong>party</strong>.  
+      </p>
+    </div>
+    <div class="content-container right-side">
+      <img src="images/baker.png" alt="a baker dilligently frosting a white cake">
+    </div>
+  </div>
+
+  <div class="split-container">
+    <div class="content-container left-side">
+      <img src="images/pastries.png" alt="an assortment of pastries are placed above a glass shelf with tea cookies">
+    </div>
+    <div class="content-container right-side">
+      <p class="large-text">
+        Our bakers and cake decorators have been <em>trained</em> to make a large variety of <strong>specialty cakes</strong>—fine pastries, cookies and breads, <em>unmatched</em> in the <strong>San Diego area</strong>.
+      </p>
+    </div>
+  </div>
+
+  <div class="split-container">
+    <div class="content-container left-side">
+      <p class="large-text">
+        Large selection of <strong>in-store cakes</strong> available. We can add a <strong>personalized inscription</strong> <em>in minutes</em> for those impromptu gatherings.
+      </p>
+    </div>
+    <div class="content-container right-side">
+        <img src="images/cakes.png" alt="an assortment of cakes and tarts with some fruit decorations, some are red, green, and pale yellow and some are shiny">
+    </div>
+  </div>
+
+  <!-- special occasion -->
+  <div class="content-container">
+    <h2>Special Occasion Baked Delights</h2>
+  </div>
+  <div class="split-container">
+    <div class="content-container left-side">
+        <img src="images/st-patricks.png" alt="a close-up of a st-patrick's day themed cupcake with green frosting, an airhead xtreme candy strip, and circular golden decorations">
+        <div class="flex-row">
+          <h3>St. Patrick's Items</h3>
+          <button class="large"><p class="semi-bold large">Shop Now</p></button>
+      </div>
+    </div>
+    
+    <div class="content-container">
+      <img src="images/easter.png" alt="a close-up of an easter themed cheesecake with egg-shaped candy to resemble a nest">
+      <div class="flex-row">
+        <h3>Easter Items</h3>
+        <button class="large"><p class="semi-bold large">Shop Now</p></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- customer favorite -->
+  <div class="split-container">
+    <div class="content-container left-side">
+      <img src="images/fruit-flan.png" alt="fruit flan with blueberries, strawberries, mandarin oranges, kiwi, and raspberries">
+    </div>
+
+    <div class="right-side top">
+      <div class="content-container">
+        <h2>Our Customer Favorite</h2>
+      </div>
+      <div class="content-container bottom">
+        <h3><strong>Fruit Flan</strong></h3>
+        <p>Fresh fruit covering a white sponge cake filled with Bavarian cream and raspberry preserve</p>
+        <p>Trimmed with chopped nuts</p>
+        <p><em>8-10 servings</em></p>
+        <button class="left-align"><p class="semi-bold">Add to Cart</p></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- wedding cake -->
+  <div class="split-container">
+    <div class="left-side top">
+      <div class="content-container">
+        <h2>A Special Memory for Your Most Important Day</h2>
+      </div>
+
+    
+      <div class="content-container bottom">
+        <h3 class="bold"><strong>Custom Wedding Cakes</strong></h3>
+        <p>Starting at $4.50 per guest</p>
+        <p>Delivery available - price varies</p>
+        <div class="no-stretch">
+          <button><p class="semi-bold">Wedding Cake Details</p></button>
+        <button><p class="semi-bold">Schedule a Tasting</p></button>
+        </div>
+      </div>
+        
+      </div>
+
+      <div class="content-container">
+        <img src="images/wedding-cake.png" alt="two-tiered pink ombre wedding cake with gold flakes and fake flowers">
+      </div>  
+    </div>
+    
+  <!-- favorite picks -->
+  <div class="content-container">
+    <h2>Our Favorite Picks</h2>
+  </div>
+
+  <div class="card-container">
+    <div class="card">
+      <p class="semi-bold">Cranberry Orange Scone<br>$3.25</p>
+      <img src="images/scone.png" alt="cranberry orange scone" class="item">
+      <button class="button"><p class="semi-bold">Add to Cart</p></button>
+    </div>
+
+    <div class="card">
+      <p class="semi-bold">Lemon Bar<br>$4.25</p>
+      <img src="images/lemon.png" alt="three lemon bars stacked on top of each other">
+      <button><p class="semi-bold">Add to Cart</p></button>
+    </div>
+
+    <div class="card">
+      <p class="semi-bold">Apple Strudel<br>$3.25</p>
+      <img src="images/apple.png" alt="apple strudel cut in half revealing the apple pieces inside">
+      <button><p class="semi-bold">Add to Cart</p></button>
+    </div>
+
+    <div class="card">
+      <p class="semi-bold">Cinnamon Roll<br>$3.25</p>
+      <img src="images/cinnamon.png" alt="cinammon roll">
+      <button><p class="semi-bold">Add to Cart</p></button>
+      </div>
+  </div>
+
+
+  <div class="card-container">
+    <div class="card">
+      <p class="semi-bold">German Chocolate Cake<br>$4.25</p>
+      <img src="images/german-chocolate.png" alt="german chocolate cake slice">
+      <button><p class="semi-bold">Add to Cart</p></button>    
+    </div>
+
+    <div class="card">
+      <p class="semi-bold">Marzipan Princess Torte<br>$5.25</p>
+      <img src="images/marzipan.png" alt="maripan pricess torte slice">
+      <button><p class="semi-bold">Add to Cart</p></button>    
+    </div>
+
+    <div class="card">
+      <p class="semi-bold">Carrot Cake<br>$4.25</p>
+      <img src="images/carrot.png" alt="square carrot cake slice with small carrot design frosted on top">
+      <button><p class="semi-bold">Add to Cart</p></button>    
+    </div>
+
+    <div class="card">
+      <p class="semi-bold">Coffee Cake<br>$4.25</p>
+      <img src="images/coffee.png" alt="square coffee cake slice">
+      <button><p class="semi-bold">Add to Cart</p></button>
+    </div>
+  </div>
+
+  <!-- bakery info -->
+  <div class="content-container">
+    <h2>Bakery Information</h2>
+  </div>
+
+  <div class="split-container">
+    <div class="content-container left-side" id="bakery-info">
+      <div>
+        <h3><strong>Location</strong></h3>
+      </div>
+      <div>
+        <p>Rancho Bernardo<br>
+        11639 Duenda Rd<br>
+        San Diego, CA 92127</p>
+      </div>
+
+      <div class="">
+        <h3><strong>Hours</strong></h3>
+      </div> 
+      <div> 
+        <div class="">
+          <div class="split-container table">
+            <p><strong>Monday</strong></p>
+            <p>Closed</p>
+          </div>
+  
+          <div class="split-container table">
+            <p><strong>Tuesday - Saturday</strong></p>
+            <p>7:30am - 5:30pm</p>
+          </div>
+  
+          <div class="split-container table">
+            <p><strong>Sunday</strong></p>
+            <p>9:00am - 1:00pm</p>
+          </div>  
+        </div>
+      </div> 
+      <p>☏ Call <strong>(858) 487-4338</strong> for additional inquiries</p>
+    </div>
+
+    <div class="content-container right-side">
+      <div class="square-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.90687720558!2d-117.0824351245289!3d33.032583773557896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbf6d32dba7ca1%3A0xac9456d688934d9c!2sEdelweiss%20Bakery!5e0!3m2!1sen!2sus!4v1708913306738!5m2!1sen!2sus" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="directions to edelweiss bakery"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- start your day with a smile -->
+  <div class="banner">
+    <p class="regular">Start your day with a smile ☺</p>
+  </div>
+
+  <!-- footer -->
+  <div class="split-container">
+    <div class="content-container" id="footer-left-side">
+      <p>Edelweiss Bakery Inc.<br>
+        11639 Duenda Rd. San Diego, CA 92127 US
+      </p>
+      <p>(858) 487-4338</p>
+    </div>
+
+    <div class="content-container" id="footer-right-side">
+        <p>Customize a Cake</p>
+        <p>Request a Quote</p>
+        <p>Submit an Image</p>
+    </div>
+  </div>
+  
+  <!-- <script>
+    const scrollers = document.querSelectorAll(".scroller");
+  
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      addAnimation();
+    }
+  
+    function addAnimation() {
+      scrollers.forEach(scroller => {
+        scroller.setAttribute("data-animated", true)
+      })
+    }
+  </script> -->
+</body>
+</html>
