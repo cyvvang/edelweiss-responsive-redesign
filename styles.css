@@ -299,6 +299,7 @@ button:hover {
 
 img {
   width: 100%;
+  align-self: center;
   border-radius: 1.5rem;
 }
 
